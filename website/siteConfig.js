@@ -1,17 +1,17 @@
 /* List of projects/orgs using your project for the users page */
 const users = [
-  {
-    caption: 'User1',
-    image: '/test-site/img/docusaurus.svg',
-    infoLink: 'https://www.facebook.com',
-    pinned: true,
-  },
+  // {
+  //   caption: '',
+  //   image: '',
+  //   infoLink: '',
+  //   pinned: true,
+  // },
 ];
 
 const siteConfig = {
   title: 'CodeForCharlotte' /* title for your website */,
   tagline: 'Become an open source contributor in no time!',
-  url: 'https://chimon20000.github.io' /* your website url */,
+  url: 'https://majorite.github.io/code-for-charlotte' /* your website url */,
   baseUrl: '/code-for-charlotte/' /* base url for your project */,
   projectName: 'code-for-charlotte',
   headerLinks: [
@@ -19,6 +19,7 @@ const siteConfig = {
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
   ],
+  useEnglishUrl: true,
   users,
   /* path to images for header/footer */
   favicon: 'img/CFC-favicon.png',
@@ -31,15 +32,15 @@ const siteConfig = {
   copyright:
     'Copyright © ' +
     new Date().getFullYear() +
-    ' Your Name or Your Company Name',
-  organizationName: 'chimon2000', // or set an env variable ORGANIZATION_NAME
+    ' CodeForCharlotte',
+  organizationName: 'majorite', // or set an env variable ORGANIZATION_NAME
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
     theme: 'default',
   },
   scripts: ['https://buttons.github.io/buttons.js'],
   // You may provide arbitrary config keys to be used as needed by your template.
-  repoUrl: 'https://github.com/chimon2000/code-for-charlotte',
+  repoUrl: 'https://github.com/majorite/code-for-charlotte',
 };
 
 module.exports = siteConfig;
